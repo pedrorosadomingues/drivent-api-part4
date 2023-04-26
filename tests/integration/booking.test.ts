@@ -6,7 +6,7 @@ import { TicketStatus } from '.prisma/client';
 import {
   createEnrollmentWithAddress,
   createUser,
-  createTicketType,
+  createTicketTypeWithHotel,
   createTicket,
   createPayment,
   createHotel,
@@ -63,7 +63,7 @@ describe('GET /bookings', () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const enrollment = await createEnrollmentWithAddress(user);
-      const ticketType = await createTicketType();
+      const ticketType = await createTicketTypeWithHotel();
       const ticket = await createTicket(enrollment.id, ticketType.id, TicketStatus.PAID);
       const payment = await createPayment(ticket.id, ticketType.price);
       const createdHotel = await createHotel();
@@ -108,15 +108,19 @@ describe('POST /bookings', () => {
   });
 
   describe('when token is valid', () => {
-    it('should respond with status 403 if ticket status is not paid', async () => {
+    it('should respond with status 403 if ticket status is not PAID', async () => {
       const user = await createUser();
       const token = await generateValidToken(user);
       const enrollment = await createEnrollmentWithAddress(user);
-      const ticketType = await createTicketType();
+      const ticketType = await createTicketTypeWithHotel();
       const ticket = await createTicket(enrollment.id, ticketType.id, TicketStatus.RESERVED);
+      const createdHotel = await createHotel();
+      const createdRoom = await createRoomWithHotelId(createdHotel.id);
+      const createdBooking = await createBooking(user.id, createdRoom.id);
 
-      const response = await server.post('/bookings').set('Authorization', `Bearer ${token}`);
-
+      const response = await server.post('/bookings').set('Authorization', `Bearer ${token}`).send({
+        roomId: createdRoom.id,
+      });
       expect(response.status).toBe(httpStatus.FORBIDDEN);
     });
   });

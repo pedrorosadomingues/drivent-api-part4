@@ -22,7 +22,7 @@ export async function createBooking(req: AuthenticatedRequest, res: Response) {
   const { roomId } = req.body;
 
   try {
-    const booking = await bookingService.createBooking(userId, roomId);
+    const booking = await bookingService.createBooking(roomId, userId);
     return res.status(httpStatus.CREATED).send(booking);
   } catch (error) {
     if (error.name === 'NotFoundError') {

@@ -4,6 +4,7 @@ import bookingRepository from '@/repositories/booking-repository';
 import roomRepository from '@/repositories/room-repository';
 import enrollmentRepository from '@/repositories/enrollment-repository';
 import ticketsRepository from '@/repositories/tickets-repository';
+import paymentRepository from '@/repositories/payments-repository';
 
 async function getBooking(userId: number) {
   const booking = await bookingRepository.findBookingByUserId(userId);
@@ -34,8 +35,6 @@ async function createBooking(roomId: number, userId: number) {
   if (!room) throw notFoundError();
 
   const findBookingsByRoomId = await bookingRepository.findAllBookingsByRoomId(roomId);
-
-  console.log(room, findBookingsByRoomId);
 
   if (findBookingsByRoomId.length === room.capacity) throw forbiddenError();
 
