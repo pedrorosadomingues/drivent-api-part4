@@ -13,11 +13,10 @@ async function getBooking(userId: number) {
   }
   const room = await roomRepository.findRoomById(booking.roomId);
 
-  const response = [
-    {
-      Room: room,
-    },
-  ];
+  const response = {
+    id: booking.id,
+    Room: room,
+  };
   return response;
 }
 
