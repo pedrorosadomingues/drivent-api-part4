@@ -211,10 +211,10 @@ describe('POST /booking', () => {
         roomId: createdRoom.id,
       });
 
-      const insertedBooking = await findBookingById(response.body.id);
+      const insertedBooking = await findBookingById(response.body.bookingId);
 
       expect(response.status).toBe(httpStatus.OK);
-      expect(response.body.id).toEqual(insertedBooking.id);
+      expect(response.body).toEqual({ bookingId: insertedBooking.id });
     });
   });
 });

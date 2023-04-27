@@ -40,7 +40,9 @@ async function createBooking(roomId: number, userId: number) {
 
   const booking = await bookingRepository.createBooking(roomId, userId);
 
-  return booking;
+  const res = { bookingId: booking.id };
+
+  return res;
 }
 
 async function editBooking(roomId: number, userId: number, bookingId: number) {
