@@ -11,10 +11,12 @@ async function getBooking(userId: number) {
   if (!booking) {
     throw notFoundError();
   }
+  const room = await roomRepository.findRoomById(booking.roomId);
+
   const response = [
     {
       id: booking.id,
-      Room: {},
+      Room: room,
     },
   ];
   return response;
@@ -58,7 +60,9 @@ async function editBooking(roomId: number, userId: number, bookingId: number) {
 
   const newBooking = await bookingRepository.editBooking(bookingId, roomId);
 
-  return newBooking;
+  const res = { bookingId: newBooking.id };
+
+  return res;
 }
 
 const bookingService = {

@@ -31,3 +31,7 @@ export async function generateValidToken(user?: User) {
 export async function findBookingById(id: number) {
   return await prisma.booking.findUnique({ where: { id } });
 }
+
+export async function findRoomById(id: number) {
+  return await prisma.room.findUnique({ where: { id } });
+}

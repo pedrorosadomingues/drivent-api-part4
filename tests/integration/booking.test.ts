@@ -79,7 +79,11 @@ describe('GET /booking', () => {
       expect(response.body).toEqual([
         {
           id: createdBooking.id,
-          Room: {},
+          Room: {
+            ...createdRoom,
+            createdAt: createdRoom.createdAt.toISOString(),
+            updatedAt: createdRoom.updatedAt.toISOString(),
+          },
         },
       ]);
     });
@@ -325,7 +329,7 @@ describe('PUT /booking/:bookingId', () => {
       const updatedBooking = await findBookingById(createdBooking.id);
 
       expect(response.status).toBe(httpStatus.OK);
-      expect(response.body.id).toEqual(updatedBooking.id);
+      expect(response.body).toEqual({ bookingId: updatedBooking.id });
     });
   });
 });
