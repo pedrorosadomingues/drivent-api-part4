@@ -27,3 +27,7 @@ export async function generateValidToken(user?: User) {
 
   return token;
 }
+
+export async function findBookingById(id?: number) {
+  return await prisma.booking.findUnique({ where: { id } });
+}
