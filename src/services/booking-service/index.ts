@@ -15,7 +15,6 @@ async function getBooking(userId: number) {
 
   const response = [
     {
-      id: booking.id,
       Room: room,
     },
   ];

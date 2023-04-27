@@ -78,7 +78,6 @@ describe('GET /booking', () => {
       expect(response.status).toBe(httpStatus.OK);
       expect(response.body).toEqual([
         {
-          id: createdBooking.id,
           Room: {
             ...createdRoom,
             createdAt: createdRoom.createdAt.toISOString(),

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1682566999064" clover="3.2.0">
-  <project timestamp="1682566999064" name="All files">
-    <metrics statements="675" coveredstatements="555" conditionals="103" coveredconditionals="57" methods="119" coveredmethods="88" elements="897" coveredelements="700" complexity="0" loc="675" ncloc="675" packages="28" files="73" classes="73"/>
+<coverage generated="1682570924460" clover="3.2.0">
+  <project timestamp="1682570924460" name="All files">
+    <metrics statements="680" coveredstatements="603" conditionals="103" coveredconditionals="68" methods="120" coveredmethods="101" elements="903" coveredelements="772" complexity="0" loc="680" ncloc="680" packages="28" files="73" classes="73"/>
     <package name="src">
       <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/app.ts">
@@ -51,7 +51,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="145" coveredstatements="103" conditionals="16" coveredconditionals="4" methods="16" coveredmethods="13"/>
+      <metrics statements="145" coveredstatements="119" conditionals="16" coveredconditionals="8" methods="16" coveredmethods="15"/>
       <file name="authentication-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
@@ -60,11 +60,11 @@
         <line num="6" count="5" type="stmt"/>
         <line num="8" count="5" type="stmt"/>
         <line num="9" count="5" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
       </file>
       <file name="booking-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/booking-controller.ts">
-        <metrics statements="29" coveredstatements="24" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="29" coveredstatements="25" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -76,35 +76,35 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
         <line num="35" count="11" type="stmt"/>
         <line num="36" count="3" type="stmt"/>
         <line num="37" count="3" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
         <line num="40" count="3" type="stmt"/>
         <line num="41" count="3" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="44" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="47" count="2" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/enrollments-controller.ts">
-        <metrics statements="20" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="20" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
@@ -129,25 +129,25 @@
         <line num="10" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/hotel-controller.ts">
-        <metrics statements="21" coveredstatements="10" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <metrics statements="21" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="14" count="0" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="1" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="2" type="stmt"/>
         <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
@@ -162,14 +162,14 @@
         <line num="6" count="11" type="stmt"/>
       </file>
       <file name="payments-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/payments-controller.ts">
-        <metrics statements="24" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="24" coveredstatements="17" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
@@ -177,16 +177,16 @@
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="25" count="11" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="cond" truecount="0" falsecount="3"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="37" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="1"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
       </file>
       <file name="tickets-controller.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/controllers/tickets-controller.ts">
         <metrics statements="20" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
@@ -198,11 +198,11 @@
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
         <line num="27" count="11" type="stmt"/>
         <line num="28" count="3" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
@@ -245,7 +245,7 @@
       <file name="forbidden-error.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/errors/forbidden-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/errors/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -270,7 +270,7 @@
       <file name="not-found-error.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="8" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -280,7 +280,7 @@
       <file name="unauthorized-error.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="38" type="stmt"/>
+        <line num="4" count="39" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -292,35 +292,35 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="62" type="stmt"/>
-        <line num="10" count="62" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="50" type="stmt"/>
-        <line num="13" count="50" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="50" type="stmt"/>
-        <line num="16" count="50" type="stmt"/>
-        <line num="18" count="38" type="stmt"/>
-        <line num="23" count="38" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="24" type="stmt"/>
-        <line num="27" count="24" type="stmt"/>
+        <line num="9" count="85" type="stmt"/>
+        <line num="10" count="85" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="73" type="stmt"/>
+        <line num="13" count="73" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="73" type="stmt"/>
+        <line num="16" count="73" type="stmt"/>
+        <line num="18" count="61" type="stmt"/>
+        <line num="23" count="61" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="27" count="46" type="stmt"/>
         <line num="29" count="12" type="stmt"/>
-        <line num="34" count="38" type="stmt"/>
+        <line num="34" count="39" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/middlewares/error-handling-middleware.ts">
         <metrics statements="16" coveredstatements="9" conditionals="8" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="11" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="16" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="22" count="2" type="cond" truecount="2" falsecount="1"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="1"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="28" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="28" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="34" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="34" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="40" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="41" count="2" type="stmt"/>
+        <line num="40" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="3" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
       </file>
@@ -342,7 +342,7 @@
         <line num="16" count="22" type="stmt"/>
         <line num="20" count="22" type="cond" truecount="2" falsecount="0"/>
         <line num="21" count="16" type="stmt"/>
-        <line num="23" count="18" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.address-repository">
@@ -362,21 +362,21 @@
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
         <line num="46" count="11" type="stmt"/>
         <line num="54" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
-      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/repositories/enrollment-repository/index.ts">
-        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
-        <line num="5" count="7" type="stmt"/>
+        <line num="5" count="18" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
         <line num="42" count="11" type="stmt"/>
       </file>
@@ -392,23 +392,23 @@
       </file>
     </package>
     <package name="src.repositories.hotel-repository">
-      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/repositories/hotel-repository/index.ts">
-        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
         <line num="18" count="11" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.payments-repository">
-      <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/repositories/payments-repository/index.ts">
-        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
         <line num="21" count="11" type="stmt"/>
         <line num="25" count="11" type="stmt"/>
       </file>
@@ -418,7 +418,7 @@
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/repositories/room-repository/index.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
         <line num="11" count="11" type="stmt"/>
         <line num="15" count="11" type="stmt"/>
       </file>
@@ -434,18 +434,18 @@
       </file>
     </package>
     <package name="src.repositories.tickets-repository">
-      <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/repositories/tickets-repository/index.ts">
-        <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="21" count="13" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
         <line num="68" count="11" type="stmt"/>
       </file>
     </package>
@@ -619,13 +619,13 @@
         <line num="12" count="9" type="stmt"/>
         <line num="14" count="7" type="stmt"/>
         <line num="16" count="5" type="stmt"/>
-        <line num="18" count="5" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
         <line num="25" count="9" type="stmt"/>
         <line num="26" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="7" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
         <line num="33" count="5" type="stmt"/>
-        <line num="38" count="5" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
         <line num="42" count="7" type="stmt"/>
         <line num="43" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="55" count="11" type="stmt"/>
@@ -634,9 +634,9 @@
       </file>
     </package>
     <package name="src.services.booking-service">
-      <metrics statements="31" coveredstatements="25" conditionals="11" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <metrics statements="34" coveredstatements="28" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/services/booking-service/index.ts">
-        <metrics statements="31" coveredstatements="25" conditionals="11" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <metrics statements="34" coveredstatements="28" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -647,33 +647,36 @@
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="3" falsecount="1"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="47" count="3" type="stmt"/>
-        <line num="49" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="30" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="37" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
         <line num="51" count="3" type="stmt"/>
-        <line num="53" count="3" type="stmt"/>
-        <line num="55" count="3" type="cond" truecount="3" falsecount="0"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
-        <line num="62" count="11" type="stmt"/>
+        <line num="53" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
         <line num="68" count="11" type="stmt"/>
+        <line num="74" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="28" coveredstatements="21" conditionals="9" coveredconditionals="6" methods="5" coveredmethods="4"/>
+      <metrics statements="28" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="5" coveredmethods="3"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/services/enrollments-service/index.ts">
-        <metrics statements="28" coveredstatements="21" conditionals="9" coveredconditionals="6" methods="5" coveredmethods="4"/>
+        <metrics statements="28" coveredstatements="19" conditionals="9" coveredconditionals="5" methods="5" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -685,8 +688,8 @@
         <line num="16" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="34" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
@@ -717,70 +720,70 @@
         <line num="11" count="1" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
         <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="24" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="27" count="11" type="stmt"/>
         <line num="32" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.hotels-service">
-      <metrics statements="20" coveredstatements="10" conditionals="7" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <metrics statements="20" coveredstatements="17" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/services/hotels-service/index.ts">
-        <metrics statements="20" coveredstatements="10" conditionals="7" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <metrics statements="20" coveredstatements="17" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="4" falsecount="1"/>
         <line num="15" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
         <line num="37" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.payments-service">
-      <metrics statements="20" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="20" coveredstatements="16" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/services/payments-service/index.ts">
-        <metrics statements="20" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <metrics statements="20" coveredstatements="16" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="14" count="3" type="cond" truecount="0" falsecount="1"/>
         <line num="18" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="21" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
         <line num="45" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.tickets-service">
-      <metrics statements="20" coveredstatements="17" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="20" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/services/tickets-service/index.ts">
-        <metrics statements="20" coveredstatements="17" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="20" coveredstatements="19" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -788,10 +791,10 @@
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="21" count="0" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
         <line num="26" count="3" type="cond" truecount="1" falsecount="0"/>
@@ -838,10 +841,10 @@
       <file name="prisma-utils.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="2" count="10" type="stmt"/>
-        <line num="3" count="10" type="stmt"/>
-        <line num="4" count="11" type="stmt"/>
-        <line num="6" count="10" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -856,9 +859,9 @@
       </file>
     </package>
     <package name="tests">
-      <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="25" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
       <file name="helpers.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/helpers.ts">
-        <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="25" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
         <line num="1" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
@@ -868,29 +871,31 @@
         <line num="10" count="79" type="stmt"/>
         <line num="11" count="79" type="stmt"/>
         <line num="12" count="79" type="stmt"/>
-        <line num="13" count="79" type="stmt"/>
-        <line num="14" count="78" type="stmt"/>
-        <line num="15" count="78" type="stmt"/>
-        <line num="16" count="78" type="stmt"/>
-        <line num="17" count="76" type="stmt"/>
-        <line num="18" count="76" type="stmt"/>
-        <line num="19" count="76" type="stmt"/>
+        <line num="13" count="77" type="stmt"/>
+        <line num="14" count="75" type="stmt"/>
+        <line num="15" count="75" type="stmt"/>
+        <line num="16" count="75" type="stmt"/>
+        <line num="17" count="74" type="stmt"/>
+        <line num="18" count="74" type="stmt"/>
+        <line num="19" count="74" type="stmt"/>
         <line num="22" count="10" type="stmt"/>
-        <line num="23" count="48" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="47" type="stmt"/>
-        <line num="26" count="47" type="stmt"/>
-        <line num="28" count="44" type="stmt"/>
+        <line num="23" count="49" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="49" type="stmt"/>
+        <line num="26" count="49" type="stmt"/>
+        <line num="28" count="47" type="stmt"/>
         <line num="31" count="10" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
+        <line num="35" count="10" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
-      <metrics statements="66" coveredstatements="61" conditionals="18" coveredconditionals="17" methods="17" coveredmethods="13"/>
+      <metrics statements="66" coveredstatements="65" conditionals="18" coveredconditionals="17" methods="17" coveredmethods="16"/>
       <file name="booking-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/booking-factory.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
       </file>
       <file name="enrollments-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/enrollments-factory.ts">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
@@ -899,8 +904,8 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
         <line num="8" count="10" type="stmt"/>
-        <line num="9" count="31" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="31" type="stmt"/>
+        <line num="9" count="35" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="35" type="stmt"/>
         <line num="35" count="10" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
@@ -913,15 +918,15 @@
         <line num="7" count="4" type="stmt"/>
       </file>
       <file name="hotels-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/hotels-factory.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
         <line num="14" count="10" type="stmt"/>
-        <line num="15" count="4" type="stmt"/>
+        <line num="15" count="13" type="stmt"/>
         <line num="24" count="10" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -935,39 +940,39 @@
         <line num="8" count="10" type="stmt"/>
       </file>
       <file name="payments-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/payments-factory.ts">
-        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
       </file>
       <file name="sessions-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/sessions-factory.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="10" type="stmt"/>
         <line num="3" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="47" type="stmt"/>
-        <line num="8" count="47" type="stmt"/>
+        <line num="6" count="49" type="stmt"/>
+        <line num="8" count="49" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/tickets-factory.ts">
-        <metrics statements="14" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="10" type="stmt"/>
         <line num="3" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
         <line num="16" count="10" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
         <line num="26" count="10" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
         <line num="37" count="10" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
         <line num="48" count="10" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
         <line num="59" count="10" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/pedro/Driven/Projetos/projeto19_drivent/drivent-api-part4/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -975,9 +980,9 @@
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="119" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="119" type="stmt"/>
-        <line num="10" count="119" type="stmt"/>
+        <line num="7" count="121" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="121" type="stmt"/>
+        <line num="10" count="121" type="stmt"/>
       </file>
     </package>
   </project>
